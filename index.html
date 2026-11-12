@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Информация о частной утилите резервного копирования Caspian Server Backup.">
+  <title>Caspian Server Backup</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #172033; background: #f5f7fb; }
+    body { margin: 0; padding: 3rem 1rem; }
+    main { max-width: 720px; margin: auto; padding: clamp(1.5rem, 5vw, 3rem); background: white; border: 1px solid #e3e8f0; border-radius: 20px; box-shadow: 0 16px 50px #19233a0d; }
+    h1 { margin: 0 0 1rem; font-size: clamp(2rem, 7vw, 3rem); letter-spacing: -.04em; }
+    p, li { line-height: 1.7; }
+    .label { color: #53627a; font-size: .9rem; }
+    a { color: #205bd3; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e8ecf2; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">Частная утилита · не публичный сервис</p>
+    <h1>Caspian Server Backup</h1>
+    <p>Утилита предназначена для ежедневного создания резервных копий Linux-сервера одного владельца, их проверки и хранения зашифрованного архива в его Google Drive.</p>
+    <ul>
+      <li>Данные архива шифруются на сервере до загрузки в Google Drive.</li>
+      <li>Google-доступ ограничен разрешением <code>drive.file</code> и файлами резервной копии, которыми управляет эта утилита.</li>
+      <li>Старая проверенная копия сохраняется, если новая не прошла проверку. После успешной проверки остаётся одна актуальная копия.</li>
+    </ul>
+    <p>Утилита предназначена только для личного восстановления сервера. Она не принимает данные других пользователей и не предоставляет публичные услуги резервного копирования.</p>
+    <footer><a href="privacy.html">Политика конфиденциальности</a></footer>
+  </main>
+</body>
+</html>
+
